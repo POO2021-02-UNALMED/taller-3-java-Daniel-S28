@@ -55,10 +55,10 @@ public class TV {
 		}
 	}
 	
-	public static int getnumTV() {				
+	public static int getNumTV() {				
 		return numTV;
 	}
-	public static void setnumTV(int n) {
+	public static void setNumTV(int n) {
 		numTV=n;
 	}
 	
