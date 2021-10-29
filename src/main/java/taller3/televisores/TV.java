@@ -62,7 +62,7 @@ public class TV {
 		numTV=n;
 	}
 	
-	public void turnOn() {				
+	public void turnOn() {			//prender y apagar	
 		estado=true;
 	}
 	public void turnOff() {
@@ -73,7 +73,7 @@ public class TV {
 		return estado;
 	}
 	
-	public void canalUp() {					
+	public void canalUp() {					//subir y bajar de canal
 		if (canal<120 && estado==true) {		
 			canal++;
 		}
@@ -84,7 +84,7 @@ public class TV {
 		}
 	}
 
-	public void volumenUp() {					
+	public void volumenUp() {					//subir y bajar el volumen
 		if (volumen<7 && estado==true) {		
 			volumen++;
 		}
