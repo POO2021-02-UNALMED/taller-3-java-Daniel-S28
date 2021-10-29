@@ -52,39 +52,39 @@ public class TV {
 		}
 	}
 	
-	public static int getnumTV() {				//Para acceder al atributo de clase numTV
+	public static int getnumTV() {				
 		return numTV;
 	}
 	
-	public void turnOn() {				//Apagar y prender televisor
+	public void turnOn() {				
 		estado=true;
 	}
 	public void turnOff() {
 		estado=false;
 	}
 	
-	public boolean getEstado() {		//devolver el estado
+	public boolean getEstado() {		
 		return estado;
 	}
 	
-	public void canalUp() {					//Subir y bajar canal
-		if (canal<120 && estado==true) {		//tiene que estar prendido y maximo 120 canales
+	public void canalUp() {					
+		if (canal<120 && estado==true) {		
 			canal++;
 		}
 	}
 	public void canalDown() {
-		if (canal>1 && estado==true) {			//minimo canal el 1
+		if (canal>1 && estado==true) {			
 			canal--;
 		}
 	}
 
-	public void volumenUp() {					//Subir y bajar volumen
-		if (volumen<7 && estado==true) {		//volumen máximo el 7
+	public void volumenUp() {					
+		if (volumen<7 && estado==true) {		
 			volumen++;
 		}
 	}
 	public void volumenDown() {
-		if (volumen>0 && estado==true) {		//volumen minimo 0
+		if (volumen>0 && estado==true) {		
 			volumen--;
 		}
 	}
