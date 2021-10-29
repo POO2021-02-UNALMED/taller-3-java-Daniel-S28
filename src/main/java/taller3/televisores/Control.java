@@ -33,10 +33,10 @@ public class Control {
 		televisor.setControl(this);
 	}
 	
-	public TV gettv () {
+	public TV getTv () {
 		return tv;
 	}
-	public void settv(TV tl) {
+	public void setTv(TV tl) {
 		tv=tl;
 	}
 }
